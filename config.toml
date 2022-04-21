@@ -76,7 +76,7 @@ uglyURLs = false
             autoHeadingIDType = "github"
         [markup.goldmark.renderer]
             hardWraps = false
-            unsafe = true
+            unsafe = false
             xHTML = false
     [markup.highlight]
         codeFences = true
