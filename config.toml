@@ -76,7 +76,7 @@ uglyURLs = false
             autoHeadingIDType = "github"
         [markup.goldmark.renderer]
             hardWraps = false
-            unsafe = false
+            unsafe = true
             xHTML = false
     [markup.highlight]
         codeFences = true
@@ -818,7 +818,7 @@ uglyURLs = false
     # 分节标题锚点
 
     # 是否开启（全局设置）
-    enableHeadingsAnchor = true
+    enableHeadingsAnchor = false
     # 说明：文章的 Front Matter 中的 `anchor`
     #      的优先级高于此处
 
@@ -975,7 +975,7 @@ uglyURLs = false
     ## 段首缩排
 
     # 是否开启
-    enableParagraphIndent = true
+    enableParagraphIndent = false
 
     # 是否缩进第一段（全局设置）
     indentFirstParagraph = false
@@ -992,7 +992,7 @@ uglyURLs = false
     ## 两端对齐
 
     # 是否开启（全局设置）
-    enableJustify = true
+    enableJustify = false
     # 说明：文章的 Front Matter 中的 `align`
     #      的优先级高于此处
 
@@ -1197,7 +1197,7 @@ uglyURLs = false
     # 返回顶部按钮
 
     # 是否开启
-    enableBackToTop = true
+    enableBackToTop = false
 
     # 是否开启自动隐藏
     enableBackToTopAutoHide = true
@@ -1380,5 +1380,3 @@ uglyURLs = false
     fofVideoWebm = ""
     fofVideoMp4 = ""
     # 说明：视频地址可留空（""）
-
-    publishDir = "docs"
